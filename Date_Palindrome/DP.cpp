@@ -15,7 +15,7 @@ typedef unsigned int Date;
 const unsigned MIN_DATE = 1010001;
 const unsigned MAX_DATE = 12319999;
 
-unsigned numDigits (unsigned num);
+unsigned numigits (unsigned num);
 int nthDigit (unsigned num, unsigned nth);
 void displayDate (const Date& date, ostream& = cout, DATE_STYLE = MM_DD_YYYY);
 Date incrementDate (const Date& date);
